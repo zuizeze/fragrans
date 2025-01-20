@@ -1,11 +1,16 @@
 import './App.css'
+import BeiAn from './components/bei-an';
+import Header from './components/header';
 
 function App() {
   return (
     <>
-      <p className="text-red-400">Hello fragrans</p>
+      <Header />
+      <BeiAn />
     </>
   )
 }
 
-export default App
+export default App;
+
+
